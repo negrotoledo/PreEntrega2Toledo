@@ -1,0 +1,113 @@
+
+    /* Estilos adicionales */
+    body {
+      padding-top: 50px;
+      background-color: #f8f9fa;
+    }
+    .jumbotron {
+      background-color: #e9ecef;
+      padding: 20px;
+    }
+
+      .card {
+        margin-bottom: 20px;
+        transition: transform 0.3s;
+      }
+
+      .tarjetas {
+        padding: 50px 0;
+        background-color: #d7e2e4;
+      }
+
+      .card:hover {
+        transform: scale(1.05);
+      }
+
+      .carousel-item {
+        height: 300x;
+       
+      }
+
+
+      .section {
+
+
+        padding: 50px 0;
+        background-color: #c9860b;
+        text-align: justify;
+      }
+
+
+      
+      .logo {
+
+        display: flex;
+        justify-content: left;
+        /* justify-content: center; */
+        align-items: center;
+         width: 10%;
+         height: 10%;
+         /* background-color: aquamarine; */ 
+         /* color: white; */
+      
+      }
+      .form-group label {
+        font-weight: bold;
+      }
+      .btn-submit {
+        margin-top: 20px;
+      }
+      .embed-responsive {
+        margin-bottom: 20px;
+      }
+
+
+    
+    .video-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* Proporción 16:9 */
+      margin-bottom: 20px;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+      
+
+
+    .container {
+
+      padding: 50px 0;
+      background-color: #d8c49e;
+      text-align: justify;
+  
+  /* Estilos personalizados aquí */
+
+    /* Media query para pantallas más pequeñas */
+    @media (max-width: 768px) 
+      /* Estilos para pantallas más pequeñas aquí  */
+    }
+
+    .footer {
+      background-color: #f8f9fa;
+      padding: 20px 0;
+      text-align: center;
+    }
+      .redes-sociales {
+        display: flex;
+        justify-content: right;      /* centra los elementos horizontalmente */
+        margin-top: 20px;
+      }
+      
+      .redes-sociales a {
+        margin: 0 10px;                 /* espacio entre los elementos */
+      }
+      
+      .redes-sociales img {   /* tamaño del logo */
+        width: 30px;
+        height: 30px;
+      }
